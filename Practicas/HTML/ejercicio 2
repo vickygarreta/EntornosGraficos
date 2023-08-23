@@ -1,0 +1,100 @@
+2.a) 
+<!-- Código controlado el día 12/08/2009 →
+
+Este fragmento de código es simplemente un comentario. Puede ser colocado en cualquier parte del documento HTML. No tiene ningún efecto en el sitio que se muestra en el navegador, más bien es una nota para el programador.
+
+2.b) 
+<div id="bloque1">Contenido del bloque1</div>
+
+Este fragmento de código corresponde al contenido del cuerpo del documento HTML, y debe estar ubicado dentro de la etiqueta <body>. 
+Este código crea un bloque de contenido en la página web, que contiene el texto "Contenido del bloque1".
+
+Elementos, Etiquetas y Atributos:
+<div>: Esta etiqueta define una división o sección en la página web.
+id="bloque1": Atributo id que asigna un identificador único al bloque <div>. No es obligatorio, pero puede ser utilizado para referencia con CSS o JavaScript.
+El texto "Contenido del bloque1" dentro del <div> es contenido de texto normal y no tiene atributos asociados.
+
+
+2.c) 
+<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" 
+longdesc="detalles.htm" />
+
+Este fragmento de código corresponde al contenido del cuerpo del documento HTML, es decir, debe estar ubicado dentro de la etiqueta <body> ycrea un elemento de imagen en la página web.
+
+Elementos, Etiquetas y Atributos:
+<img>: Esta etiqueta define una imagen en la página web.
+src="": Atributo src que especifica la URL de la imagen. El valor está en blanco, lo que significa que no se ha proporcionado la URL de la imagen. Esto es obligatorio y debe ser completado con la URL real de la imagen.
+alt="lugar imagen": Atributo alt que proporciona un texto alternativo para la imagen. Es obligatorio y se usa para describir la imagen en caso de que no se pueda mostrar.
+id="im1": Atributo id que asigna un identificador único a la imagen. No es obligatorio, pero se utiliza para referencia con CSS o JavaScript.
+name="im1": Atributo name que especifica un nombre para la imagen. No es obligatorio, pero puede ser útil para referencias en JavaScript.
+width="32" y height="32": Atributos width y height que establecen el ancho y el alto de la imagen en píxeles respectivamente. No son obligatorios, pero pueden ser utilizados para controlar el tamaño de la imagen.
+longdesc="detalles.htm": Atributo longdesc que proporciona una URL a una página de detalles para la imagen. No es obligatorio y no se utiliza comúnmente.
+
+2.d)
+<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+Estos fragmentos deben ir en la sección <head> del documento HTML. El primer código le dice a los motores de búsqueda las palabras clave importantes de la página. El segundo código indica a los navegadores cuándo deben actualizar la información almacenada en caché.
+
+Elementos, Etiquetas y Atributos:
+<meta>: Se usa para declarar metadatos
+name="keywords": Aca decimos que son palabras clave de la página.
+lang="es": Señala que las palabras clave están en español.
+content="casa, compra, venta, alquiler": Estas son las palabras clave de verdad. 
+http-equiv="expires": Controla cuándo la página debe refrescarse.
+content="16-Sep-2019 7:49 PM": Aquí ponemos la fecha y hora límite para mantener la página en caché. (Opcional)
+En resumen, estos códigos son para darle pistas a los motores de búsqueda y navegadores. El primer código con las palabras clave es importante, y el segundo con la fecha de expiración es opcional pero puede ser útil. 
+
+2.e)
+<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" 
+rel="help">Resumen HTML </a>
+
+Este fragmento de código debe ser colocado en el cuerpo del documento HTML, dentro de la etiqueta <body> y crea un enlace (hipervínculo) en la página web.
+
+Elementos, Etiquetas y Atributos:
+<a>: Esta etiqueta define un enlace (hipervínculo) en la página web.
+href="http://www.e-style.com.ar/resumen.html": Atributo href que indica la URL a la que el enlace dirige. (Obligatorio)
+type="text/html": Atributo type que especifica el tipo de archivo al que se enlaza. En este caso, es un archivo HTML. (Opcional)
+hreflang="es": Atributo hreflang que indica el idioma del recurso al que enlaza el enlace. (Opcional)
+charset="utf-8": Atributo charset que establece el juego de caracteres utilizado para la página a la que se enlaza. (Opcional)
+rel="help": Atributo rel que describe la relación entre la página actual y la página enlazada. En este caso, indica que es un enlace de ayuda. (Opcional)
+
+2.f)
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+<caption align="top"> Título </caption>
+<tr>
+<th scope="col">&nbsp;</th>
+<th scope="col">A</th>
+<th scope="col">B</th>
+<th scope="col">C</th>
+</tr>
+<tr>
+<th scope="row">1º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th scope="row">2º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+
+Este fragmento de código debe ser colocado en el cuerpo del documento HTML, dentro de la etiqueta <body> y crea una tabla en la página web para organizar y presentar datos en forma tabular.
+
+Elementos, Etiquetas y Atributos:
+<table>: Esta etiqueta define una tabla en la página web.
+width="200": Atributo width que establece el ancho de la tabla en píxeles. (Opcional)
+summary="Datos correspondientes al ejercicio vencido": Atributo summary que proporciona una descripción breve de la tabla para la accesibilidad. (Opcional)
+<caption>: Etiqueta que define el título de la tabla.
+align="top": Atributo align que alinea el título de la tabla en la parte superior. (Opcional)
+<tr>: Etiqueta que define una fila en la tabla.
+<th>: Etiqueta que define una celda de encabezado en la tabla.
+scope="col": Atributo scope que indica que las celdas de encabezado son para columnas.
+&nbsp;: Entidad HTML para un espacio en blanco no rompible.
+<td>: Etiqueta que define una celda de datos en la tabla.
+scope="row": Atributo scope que indica que las celdas de datos son para filas.
+
+En resumen, este código crea una tabla en la página web con celdas de encabezado y celdas de datos. Se utiliza para organizar datos en forma tabular. Los atributos como width, summary, align y scope son opcionales y se utilizan para ajustar la presentación y mejorar la accesibilidad de la tabla.
