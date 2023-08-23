@@ -1,0 +1,28 @@
+1) Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?
+HTML es un lenguaje de marcado de hipertexto utilizado para crear páginas web. Fue creado originalmente por Tim Berners-Lee y popularizado por el navegador Mosaic. Desde entonces, ha evolucionado a través de diferentes versiones, incluyendo HTML 2.0, HTML 3.2, HTML 4.01 y HTML5. La última versión es HTML5, que se lanzó en 2014 y es compatible con una amplia variedad de dispositivos y navegadores.
+
+2) ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?
+La Web se basa en tres mecanismos para hacer que estos recursos estén listos y a disposición de la mayor audiencia posible:
+    1- Un esquema uniforme de nombres para localizar recursos en la Web (p.ej., URIs).
+    2- Protocolos, para acceder a recursos con nombre en la Web (p.ej., HTTP).
+    3- Hipertexto, para navegar fácilmente entre recursos (p.ej., HTML).
+    
+3) En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
+En las especificaciones de HTML, un elemento o atributo se considera "desaprobado" cuando se recomienda no utilizarlo en nuevos documentos, pero aún se admite su uso en documentos antiguos por razones de compatibilidad. Por otro lado, un elemento o atributo se considera "obsoleto" cuando se ha eliminado oficialmente de la especificación y ya no se admite su uso en ningún documento.
+
+4) ¿Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+DTD significa "Declaración del Tipo de Documento" (Document Type Declaration en inglés) y es una sección que se ubica en la primera línea del archivo HTML, antes de la marca html, que indica el tipo de documento que se está utilizando. 
+En la especificación de HTML 4.01, se contemplan tres posibles DTDs:
+    1- Strict: Este DTD define una versión estricta de HTML 4.01 en la que se eliminan los elementos y atributos obsoletos y se restringe el uso de elementos y atributos presentacionales.
+    2- Transitional: Este DTD define una versión de HTML 4.01 que permite el uso de elementos y atributos obsoletos y presentacionales para garantizar la compatibilidad con documentos antiguos.
+    3- Frameset: Este DTD define una versión de HTML 4.01 que permite el uso de elementos y atributos adicionales para la creación de marcos (frames) en la página.
+
+5) ¿Qué son los metadatos y cómo se especifican en HTML?
+Los metadatos son información adicional que se utiliza para describir el contenido de una página web, como el autor, la descripción, las palabras clave, la codificación de caracteres, etc. Estos metadatos no se muestran directamente en la página web, pero son importantes para los motores de búsqueda y otros programas que procesan la información de la página.
+
+En HTML, los metadatos se especifican en la sección head del documento utilizando el elemento meta. El atributo más comúnmente utilizado en el elemento meta es el atributo name, que se utiliza para especificar el tipo de metadato que se está definiendo. Por ejemplo, el siguiente código HTML define el autor y la descripción de la página:
+
+<head>
+  <meta name="author" content="Nombre del autor">
+  <meta name="description" content="Descripción de la página">
+</head>
