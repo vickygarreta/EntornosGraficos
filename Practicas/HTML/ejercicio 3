@@ -1,0 +1,113 @@
+3)a.
+- <a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+Este enlace crea un hipervínculo en la página con el texto "Click aquí para ir a Google". Cuando los usuarios hacen clic en este enlace, son dirigidos al sitio web http://www.google.com.ar.
+
+- <a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+Este enlace también dirige a http://www.google.com.ar, pero la diferencia es que se abre en una nueva ventana o pestaña del navegador. El atributo target="_blank" especifica que el enlace se abra en una ventana nueva.
+
+- <a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+Esta línea de código está incompleta debido a un espacio incorrecto en la URL y atributos incompletos. No funcionaría correctamente y no muestra ninguna visualización en la página.
+
+- <a href="#">Click aquí para ir a Google</a>
+Este enlace utiliza el símbolo # como destino en el atributo href. Esto significa que al hacer clic en el enlace, la página no se recargará ni cambiará, ya que # hace referencia al mismo lugar donde se encuentra actualmente el usuario en la página. 
+
+- <a href="#arriba">Click aquí para volver arriba</a>
+Este enlace utiliza un fragmento de URL #arriba como destino en el atributo href. El #arriba coincide con el marcador definido más abajo en la página. Al hacer clic en este enlace, la página se desplazará al lugar donde se encuentra el marcador arriba.
+
+- <a name="arriba" id="arriba"></a>
+Estas dos líneas definen un marcador (nombre) llamado arriba y un ID también llamado arriba. Esto permite que el enlace anterior funcione correctamente, llevando a los usuarios al lugar de la página donde se encuentra este marcador.
+
+
+3)b.
+- <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+Muestra un parrafo, dentro del cual hay una imagen y debajo de la misma hay un hipervinculo hacia google con el texto "Click aqui".
+
+- <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+Es similar al caso anterior per el hipervinculo no esta aplicado sobre el texto "Click aqui", sino que se aplica sobre la imagen (se navegara hacia Google al hacer click en la imagen).
+
+- <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+En este caso el hipervinculo esta aplicado sobre la imagen y sobre el texto.
+
+- <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click aquí</a></p>
+En este fragmento hay dos hipervinculos, uno sobre la imagen y otro sobre el texto. Ambos se vinculan con la pagina de principal de Google.
+
+
+3)c. 
+- <ul> 
+<li>xxx</li>
+<li>yyy</li>
+<li>zzz</li>
+</ul>
+Crea una lista no ordenada de 3 elementos.
+
+- <ol>
+<li>xxx</li>
+<li>yyy</li>
+<li>zzz</li>
+</ol>
+Crea una lista ordenada de 3 elementos.
+
+- <ol>
+<li>xxx</li>
+</ol>
+<ol>
+<li value="2">yyy</li>
+</ol>
+<ol>
+<li
+value="3">zzz</li>
+</ol>
+En este caso, se muestran tres listas ordenadas, cada una con un item. La primera lista contiene xxx con del valor 1 (por defecto). La segunda lista contiene yyy que se le asigna el valor 2 con el atibuto value. La tercera hace algo similar mostrando zzz con el valor 3. Este codigo muesta en pantalla el mismo contenido que el ejemplo anterior (sin css), pero semanticamente son distintos.
+
+- <blockquote>
+<p>1. xxx<br />
+2. yyy<br />
+3. zzz</p>
+</blockquote>
+Este bloque de código utiliza la etiqueta <blockquote> para crear un bloque de cita. Dentro del bloque, hay un párrafo (<p>) con una lista numerada manualmente.
+
+3)d. 
+Ambos bloques de código crean tablas con encabezados de columna y celdas. La diferencia está en la presentación de los encabezados de columna: en el primer bloque, se utilizan automáticamente como encabezados de columna (<th>), mientras que en el segundo bloque, se utilizan celdas con alineación y estilos específicos para resaltar los encabezados de columna.
+
+3)e.
+Ambos bloques de código crean tablas con celdas de fondo gris claro y contenido en blanco. La principal diferencia entre los dos bloques de código está en la forma en que se presenta el título de la tabla. En el primer bloque, el título se coloca dentro de la etiqueta <caption>. En el segundo bloque, se coloca dentro de una celda (<td>) con colspan="3" para abarcar tres columnas y se alinea al centro.
+
+3)f.
+Ambos bloques de código crean tablas con celdas de fondo gris claro y contenido en blanco. La principal diferencia entre los dos bloques de código es la forma en que se distribuyen las celdas en las filas y columnas. En el primer bloque, se utiliza rowspan="2" para que una celda abarque dos filas. En el segundo bloque, se utiliza colspan="2" para que una celda abarque dos columnas.
+
+3)g.
+Ambos bloques de código crean tablas con celdas que abarcan múltiples filas y columnas. La principal diferencia entre los dos bloques de código radica en cómo se establece el espaciado entre celdas y contenido. El primer bloque no especifica cellpadding y cellspacing, por lo que el espaciado es el valor por defecto. El segundo bloque establece ambos valores a 0 para reducir el espaciado.
+
+3)h.
+Los bloques de código de formulario varían en la acción, el método, los campos de entrada, el botón y el destino. Cada bloque tiene diferentes enfoques para la recopilación y el envío de datos de formulario.
+
+Bloque 1:
+action: Envia los datos del formulario a "procesar.php".
+method: Utiliza el método POST para enviar datos al servidor.
+Campos de entrada: Contiene un campo de texto para el usuario y un campo de contraseña con valores predeterminados.
+Botón de envío: Presente con el valor "Enviar".
+target: Abre una nueva ventana o pestaña cuando se envía el formulario.
+
+Bloque 2:
+action: No tiene una acción definida (action=""), lo que implica que se enviará a la misma página.
+method: Utiliza el método GET para enviar datos al servidor.
+Campos de entrada: Contiene campos de texto para el usuario y la contraseña sin valores predeterminados.
+Botón de envío: Presente con el valor "Enviar".
+target: Abre una nueva ventana o pestaña cuando se envía el formulario.
+
+Bloque 3:
+action: Utiliza el esquema "mailto" para abrir el programa de correo electrónico predeterminado y enviar un mensaje a "xx@xx.com".
+method: Utiliza el método POST para enviar datos al servidor.
+Campos de entrada: Contiene un campo de texto para el usuario y un campo de contraseña sin valores predeterminados.
+Botón de reinicio: Presente con el valor "Enviar".
+target: Abre una nueva ventana o pestaña cuando se envía el formulario.
+
+3)i.
+Ambos bloques crean botones, pero el primer bloque utiliza la etiqueta <button> y permite una estructura más compleja dentro del botón, mientras que el segundo bloque utiliza la etiqueta <input> para crear un botón más simple.
+
+3)j.
+Ambos bloques de código crean grupos de botones de opción, pero la diferencia clave está en cómo se agrupan las opciones mediante el atributo name, lo que determina si las opciones son mutuamente excluyentes dentro de un grupo o si pueden seleccionarse opciones en grupos separados.
+En el primer bloque, ambos grupos de botones de opción comparten el mismo nombre ("opcion"), lo que los convierte en un solo grupo donde solo se puede seleccionar una opción. En el segundo bloque, se utilizan nombres diferentes ("opcion1" y "opcion2"), creando dos grupos independientes de botones de opción en los que se puede seleccionar una opción en cada grupo.
+
+3)k.
+Ambos bloques de código crean listas desplegables con grupos de opciones, pero el segundo bloque permite la selección múltiple de opciones en la lista desplegable debido al atributo multiple="multiple".
