@@ -1,0 +1,54 @@
+En el siguiente código identificar:
+• las variables y su tipo
+• los operadores
+• las funciones y sus parámetros
+• las estructuras de control
+• cuál es la salida por pantalla
+
+<?php
+function doble($i) {
+ return $i*2;
+}
+$a = TRUE; 
+$b = "xyz"; 
+$c = 'xyz';
+$d = 12; 
+echo gettype($a);
+echo gettype($b); 
+echo gettype($c);
+echo gettype($d); 
+if (is_int($d)) {
+ $d += 4;
+}
+if (is_string($a)) {
+ echo "Cadena: $a";
+}
+$d = $a ? ++$d : $d*3;
+$f = doble($d++);
+$g = $f += 10;
+echo $a, $b, $c, $d, $f , $g;
+?> 
+
+Las variables y su tipo: 
+    - $a: booleano
+    - $b: string
+    - $c: string
+    - $d: entero
+    - $f: entero
+    - $g: entero
+
+Los operadores
+    - x * y : multipicacion
+    - x = y: asignacion
+    - x += y : asignacion con incremento
+    - x? y : z :operador ternario
+
+Funciones y sus parámetros:
+
+    - doble($i) es una función llamada doble que toma un parámetro $i y devuelve el doble de ese valor.
+
+Las estructuras de control:
+    -if para los condicionales.
+
+
+La salida por pantalla es:
