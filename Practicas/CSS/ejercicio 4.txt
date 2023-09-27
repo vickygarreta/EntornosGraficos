@@ -1,0 +1,5 @@
+En el primer código hay un párrafo dentro de la página web que tiene una clase llamada "contenido" que tiene un estilo especial que dice que el texto no estará en negrita (fuente normal). El texto del párrafo será de color negro y tendrá un tamaño de letra de 10 puntos. Sin embargo, el enlace en el párrafo será de color gris porque es un enlace que no ha sido visitado.
+
+En el segundo código toda la página web tiene una clase llamada "contenido". Esto significa que todo el texto dentro de la página tendrá un tamaño de letra más grande y va a estar en negrita. Entonces, el texto del párrafo y el enlace serán más grandes y en negrita. El enlace seguirá siendo gris porque es un enlace que no ha sido visitado.
+
+Es decir, el segundo codigo hace que todo el texto en la página sea más grande y esté en negrita debido a la clase "contenido", mientras que el primero solo aplica ese estilo especial al párrafo con la clase "contenido". Ambos códigos mantienen el enlace en gris porque es un enlace sin visitar.

@@ -1,0 +1,17 @@
+Regla CSS p#normal:
+Esta regla se aplica a elementos <p> que tengan el atributo id con el valor "normal".
+Cualquier elemento <p> con id="normal" va a tener una fuente Arial o Helvetica, un tamaño de fuente de 11px y un peso de fuente en negrita.
+
+Regla CSS *#destacado:
+Esta regla se aplica a cualquier elemento (seleccionado por el asterisco "*") que tenga el atributo id con el valor "destacado".
+Cualquier elemento con id="destacado" va a tener un borde sólido de color azul con un ancho de 2px.
+
+Regla CSS #distinto:
+Esta regla se aplica a elementos que tengan el atributo id con el valor "distinto".
+Cualquier elemento con id="distinto" va a tener un fondo de color #9EC7EB (un tono de azul claro) y el texto en rojo.
+
+El primer párrafo <p> tiene el atributo id="normal", se aplica la regla p#normal. Va a tener una fuente Arial o Helvetica, un tamaño de fuente de 11px y un peso de fuente en negrita.
+
+El segundo párrafo <p> y la tabla <table> tienen el atributo id="destacado", se aplica la regla *#destacado. Va a tener un borde sólido azul de 2px de ancho.
+
+El tercer párrafo <p> tiene el atributo id="distinto", se aplica la regla #distinto. Va a tener un fondo de color #9EC7EB y el texto en rojo.

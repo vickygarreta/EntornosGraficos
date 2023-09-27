@@ -1,0 +1,40 @@
+1) CSS es el acrónimo de "Cascading Style Sheets" (Hojas de Estilo en Cascada) y es una tecnología que se utiliza para controlar la apariencia de una página web. Se utiliza para definir cómo se presentan los elementos HTML y XML en una página web, permitiendo a los desarrolladores web separar el contenido de la presentación. Con CSS, se pueden especificar estilos como el tamaño, fuentes, color, espaciado entre textos y recuadros, así como el lugar donde disponer texto e imágenes en la página. Además, CSS permite a los desarrolladores web controlar el estilo y el formato de múltiples páginas web al mismo tiempo.
+
+2) las reglas de estilo en CSS funcionan de la siguiente manera: 
+    1. Seleccionas el elemento o elementos HTML que deseas estilizar utilizando un selector.
+    2. Especificas qué estilo deseas aplicar a los elementos seleccionados utilizando una declaración.
+    3. La declaración incluye una propiedad y un valor que definen el estilo que deseas aplicar. 
+
+Por ejemplo, si deseas cambiar el color del texto de todos los elementos <p> en una página web a rojo, puedes utilizar la siguiente regla de estilo:
+p {
+  color: red;
+}
+En este caso, "p" es el selector que selecciona todos los elementos <p>, y "color: red;" es la declaración que establece el color del texto en rojo.
+
+3) Podemos asociar las reglas de estilo a las marcas HTML de tres maneras:
+    • directamente a la marca, 
+    • en el head de la página 
+    • o agrupar las reglas de estilo en un archivo independiente con extensión *.css
+
+4) Algunos de los selectores más utilizados en CSS son:
+    • Selector de tipo: selecciona todos los elementos de un tipo específico. Por ejemplo, "p" selecciona todos los elementos <p> en la página.
+    • Selector de clase: selecciona todos los elementos que tienen un atributo de clase específico. Por ejemplo, ".clase" selecciona todos los elementos que tienen la clase "clase".
+    • Selector de ID: selecciona un elemento específico que tiene un atributo de ID único. Por ejemplo, "#id" selecciona el elemento que tiene el ID "id".
+    • Selector descendente: selecciona elementos que son descendientes de otro elemento. Por ejemplo, "div p" selecciona todos los elementos <p> que son descendientes de un elemento <div>.
+    • Selector de hijo: selecciona elementos que son hijos directos de otro elemento. Por ejemplo, "div > p" selecciona todos los elementos <p> que son hijos directos de un elemento <div>.
+    • Selector de atributo: selecciona elementos que tienen un atributo específico. Por ejemplo, "a[href]" selecciona todos los elementos <a> que tienen un atributo "href".
+
+5) Una pseudo-clase es una palabra clave que se añade a un selector para especificar un estado especial del elemento seleccionado. Las pseudo-clases más utilizadas aplicadas a vínculos son:
+
+    • :hover - se aplica cuando el usuario pasa el cursor sobre el vínculo.
+    • :active - se aplica cuando el usuario hace clic en el vínculo.
+    • :visited - se aplica cuando el usuario ha visitado el vínculo.
+    • :link - se aplica a los vínculos que aún no han sido visitados.
+
+Estas pseudo-clases se utilizan para cambiar el estilo de los vínculos en función de su estado, lo que puede mejorar la experiencia del usuario y hacer que la navegación sea más intuitiva. Por ejemplo, se puede cambiar el color del texto o el fondo del vínculo cuando el usuario pasa el cursor sobre él (:hover) para indicar que es un elemento interactivo.
+
+6) La herencia en CSS es un mecanismo por el cual los estilos aplicados a un elemento se propagan a sus hijos. Esto significa que si se define un estilo para un elemento padre, todos los elementos hijos heredarán ese estilo a menos que se especifique lo contrario. Por ejemplo, si se define un estilo de fuente para el elemento `<body>`, todos los elementos dentro del `<body>` heredarán esa fuente a menos que se especifique una fuente diferente para un elemento hijo específico.
+La herencia es una característica importante de CSS porque permite definir estilos de manera más eficiente y consistente. En lugar de tener que definir estilos para cada elemento individualmente, se pueden definir estilos para elementos padre y dejar que se propaguen a los elementos hijos. Esto puede ahorrar tiempo y reducir la cantidad de código necesario para estilizar una página web.
+
+7) El proceso denominado cascada en CSS se refiere al orden en que se aplican los estilos a los elementos de una página web. 
+La cascada en CSS es un proceso que determina qué estilos se aplican a un elemento en función de su especificidad, origen y orden. Este proceso asegura que los estilos se apliquen de manera consistente y predecible en toda la página web.

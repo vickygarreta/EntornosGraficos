@@ -1,0 +1,23 @@
+Regla CSS p.quitar:
+Esta regla se aplica a elementos <p> que tienen la clase "quitar".
+Cualquier elemento <p> con la clase "quitar" va a tener el color de texto en rojo.
+
+Regla CSS *.desarrollo:
+Esta regla se aplica a cualquier elemento (seleccionado por el asterisco "*") que tenga la clase "desarrollo".
+Cualquier elemento con la clase "desarrollo" va a tener un tamaño de fuente de 8px.
+
+Regla CSS .importante:
+Esta regla se aplica a elementos que tienen la clase "importante".
+Cualquier elemento con la clase "importante" va a tener un tamaño de fuente de 20px.
+
+El primer párrafo <p> tiene la clase "desarrollo", por lo que se aplica la regla *.desarrollo, entonces va a tener un tamaño de fuente de 8px.
+
+El segundo párrafo <p> tiene la clase "quitar", por lo que se aplica la regla p.quitar, entonces va a tener el color de texto en rojo.
+
+El tercer párrafo <p> no tiene ninguna clase especificada, por lo que no se aplica ninguna de las reglas. Mantiene los estilos de fuente predeterminados.
+
+El cuarto párrafo <p> tiene la clase "importante", por lo que se aplica la regla .importante, entonces va a tener un tamaño de fuente de 20px.
+
+El encabezado <h1> tiene la clase "quitar", por lo que se aplica la regla p.quitar, entonces va a tener el color de texto en rojo.
+
+El último párrafo <p> tiene ambas clases "quitar" e "importante". Ambas reglas p.quitar y .importante se aplican. Esto significa que el párrafo va a tener el color de texto en rojo y un tamaño de fuente de 20px.
