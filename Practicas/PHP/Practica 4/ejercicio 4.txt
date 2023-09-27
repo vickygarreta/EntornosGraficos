@@ -1,0 +1,7 @@
+La salida que se produce es:
+
+El
+El clavel blanco
+
+Junto a advertencias de que las varables no estan definidas.
+El motivo es que en el primer echo las varables $flor y $color no estan definidas porque todavia no se incluyo el script datos.php, en el segundo echo ya se incluyo el archivo.

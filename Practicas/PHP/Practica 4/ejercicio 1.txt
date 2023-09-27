@@ -52,3 +52,4 @@ Las estructuras de control:
 
 
 La salida por pantalla es:
+booleanstringstringinteger1xyzxyz184444
